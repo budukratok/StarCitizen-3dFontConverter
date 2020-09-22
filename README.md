@@ -14,7 +14,7 @@ Keep in mind that all operations modifies scene object and cannot be canceled (m
 
 Our pipeline:
  - Import 3d model, make sure all models scale are 1 1 1, add Process and Save components, switch to pivot/local:
-
+![Pivot/local mode](https://github.com/budukratok/StarCitizen-UnityTools/blob/master/ReadmeImages/PWVPEBKVBORHNXS.png)
 
  - Select required characters and add them to Process component
  
