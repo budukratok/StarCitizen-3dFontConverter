@@ -2,14 +2,14 @@
 
 Repository for simple Unity3d-based tools for Star Citizen localization initiative.
 
-Process component allows to:
+**Process** component allows to:
   - Move mesh pivot point and calculate the letter mesh center
   - Rotate mesh vertices around point
   - Scale 3d model by moving vertices
   
-Save component allows to save selected GameObject as dae. file.
+**Save** component allows to save selected GameObject as dae. file.
 
-It's quite important to have a correct pivot position, scale and rotation. You can use Russian font 3d model in SampleScene as a reference.
+It's quite important to have a **correct pivot position, scale and rotation**. You can use Russian font 3d model in SampleScene as a reference.
 Keep in mind that all operations modifies scene object and cannot be canceled (maybe do this later =), so feel free to duplicate you objects in scene hierarchy to make backups.
 
 Our pipeline:
