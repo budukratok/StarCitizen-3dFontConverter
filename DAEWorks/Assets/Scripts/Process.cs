@@ -25,7 +25,7 @@ public class Process : MonoBehaviour
     
     [Header("ROTATE params (rotate vertices around point)")]
     public bool RotatePivot = false; // set to true to perform rotate around pivot 'RotateAroundPivot' operation
-    public Vector3 RotateAroundPivot; // if RotatePivot is 'true' this point will be used as a pivot for rotation
+    public Vector3 RotateAroundPivot; // if RotatePivot is 'true' this vector will be used as angles for rotation around mesh pivot
     
     
     [Header("RESIZE params (move vertices relative to pivot)")]
