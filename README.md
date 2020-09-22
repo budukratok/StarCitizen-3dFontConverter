@@ -12,11 +12,11 @@ Repository for simple Unity3d-based tools for Star Citizen localization initiati
 It's quite important to have a **correct pivot position, scale and rotation**. You can use Russian font 3d model in SampleScene as a reference.
 Keep in mind that all operations modifies scene object and cannot be canceled (maybe do this later =), so feel free to duplicate you objects in scene hierarchy to make backups.
 
-Our pipeline:
+Our pipeline (if you have a 3d model with correct pivots and scales, skip to last step):
  - Import 3d model, make sure all models scale are 1 1 1, add Process and Save components, switch to pivot/local:
 ![Pivot/local mode](https://github.com/budukratok/StarCitizen-UnityTools/blob/master/ReadmeImages/PWVPEBKVBORHNXS.png)
 
- - Select required characters and add them to Process component
+ - Select required objects and add them to Process component
  
 ![Selected chars](https://github.com/budukratok/StarCitizen-UnityTools/blob/master/ReadmeImages/BUODOOYSEVLVIBR.png)
 ![Chars list](https://github.com/budukratok/StarCitizen-UnityTools/blob/master/ReadmeImages/UKASVIVDHADQEDO.png)
