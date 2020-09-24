@@ -16,6 +16,9 @@ Our pipeline (if you have a 3d model with correct pivots and scales, skip to las
  - Import 3d model, make sure all models scale are 1 1 1, add Process and Save components, switch to pivot/local:
 ![Pivot/local mode](https://github.com/budukratok/StarCitizen-UnityTools/blob/master/ReadmeImages/PWVPEBKVBORHNXS.png)
 
+- Enable "read/write enabled" checkbox for model:
+![Enable read/write](https://github.com/budukratok/StarCitizen-UnityTools/blob/master/ReadmeImages/HTCHBEKEKIGTVPW.png)
+
  - Select required objects and add them to Process component
  
 ![Selected chars](https://github.com/budukratok/StarCitizen-UnityTools/blob/master/ReadmeImages/BUODOOYSEVLVIBR.png)
